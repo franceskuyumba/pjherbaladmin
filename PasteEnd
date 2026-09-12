@@ -1,0 +1,105 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .env
+#	new file:   .eslintrc.json
+#	new file:   .gitignore
+#	new file:   .prettierignore
+#	new file:   .prettierrc
+B
+#	new file:   README.md
+#	new file:   image-hosts.config.mjs
+#	new file:   next-env.d.ts
+#	new file:   next.config.mjs
+#	new file:   package.json
+#	new file:   postcss.config.js
+#	new file:   public/assets/images/app_logo.png
+#	new file:   public/assets/images/no_image.png
+#	new file:   public/favicon.ico
+#	new file:   src/app/about/page.tsx
+#	new file:   src/app/admin-login/components/AdminLoginBranding.tsx
+#	new file:   src/app/admin-login/components/AdminLoginForm.tsx
+#	new file:   src/app/admin-login/page.tsx
+#	new file:   src/app/admin/blog/page.tsx
+#	new file:   src/app/admin/customers/page.tsx
+#	new file:   src/app/admin/inventory/page.tsx
+#	new file:   src/app/admin/marketing/page.tsx
+#	new file:   src/app/admin/pos/page.tsx
+#	new file:   src/app/admin/products/page.tsx
+#	new file:   src/app/admin/settings/page.tsx
+#	new file:   src/app/blog/[slug]/page.tsx
+#	new file:   src/app/blog/page.tsx
+#	new file:   src/app/cart/page.tsx
+#	new file:   src/app/checkout/page.tsx
+#	new file:   src/app/components/CategorySalesChart.tsx
+#	new file:   src/app/components/MetricCard.tsx
+#	new file:   src/app/components/MetricsBentoGrid.tsx
+#	new file:   src/app/components/MonthlySalesChart.tsx
+#	new file:   src/app/components/QuickActionsBar.tsx
+#	new file:   src/app/components/RecentOrdersTable.tsx
+#	new file:   src/app/components/SalesAnalyticsSection.tsx
+#	new file:   src/app/contact/page.tsx
+#	new file:   src/app/customer-dashboard/page.tsx
+#	new file:   src/app/forgot-password/page.tsx
+#	new file:   src/app/layout.tsx
+#	new file:   src/app/login/page.tsx
+#	new file:   src/app/not-found.tsx
+#	new file:   src/app/order-success/page.tsx
+#	new file:   src/app/orders-management/components/OrderDetailModal.tsx
+#	new file:   src/app/orders-management/components/OrdersHeader.tsx
+#	new file:   src/app/orders-management/components/OrdersTableClient.tsx
+#	new file:   src/app/orders-management/components/ordersData.ts
+#	new file:   src/app/orders-management/page.tsx
+#	new file:   src/app/overview-dashboard/page.tsx
+#	new file:   src/app/page.tsx
+#	new file:   src/app/privacy-policy/page.tsx
+#	new file:   src/app/product/[slug]/ProductDetailClient.tsx
+#	new file:   src/app/product/[slug]/page.tsx
+#	new file:   src/app/register/page.tsx
+#	new file:   src/app/robots.ts
+#	new file:   src/app/shop/page.tsx
+#	new file:   src/app/sitemap.ts
+#	new file:   src/app/terms/page.tsx
+#	new file:   src/components/AdminLayout.tsx
+#	new file:   src/components/AdminSidebar.tsx
+#	new file:   src/components/AdminTopbar.tsx
+#	new file:   src/components/AnalyticsScripts.tsx
+#	new file:   src/components/MobileBottomNav.tsx
+#	new file:   src/components/ui/AppIcon.tsx
+#	new file:   src/components/ui/AppImage.tsx
+#	new file:   src/components/ui/AppLogo.tsx
+#	new file:   src/components/ui/LoadingSkeleton.tsx
+#	new file:   src/components/ui/Modal.tsx
+#	new file:   src/components/ui/StatusBadge.tsx
+#	new file:   src/contexts/AuthContext.tsx
+#	new file:   src/lib/supabase/client.ts
+#	new file:   src/lib/supabase/server.ts
+#	new file:   src/middleware.ts
+#	new file:   src/styles/index.css
+#	new file:   src/styles/tailwind.css
+#	new file:   supabase/migrations/20260910120000_products_orders.sql
+#	new file:   supabase/migrations/20260910130000_full_platform_schema.sql
+#	new file:   supabase/migrations/20260910140000_payment_audit_patch.sql
+#	new file:   supabase/migrations/20260910150000_delivery_workflow.sql
+#	new file:   supabase/migrations/20260910160000_branding_payment_policy.sql
+#	new file:   supabase/migrations/20260910220000_admin_auth_accounts.sql
+#	new file:   supabase/migrations/20260910230000_fix_admin_auth_with_identities.sql
+#	new file:   supabase/migrations/20260911000000_product_extra_fields.sql
+#	new file:   tailwind.config.js
+#	new file:   tsconfig.json
+new file:   supabase/migrations/20260910150000_delivery_workflow.sql
+#       new file:   supabase/migrations/20260910160000_branding_payment_policy.sql
+#       new file:   supabase/migrations/20260910220000_admin_auth_accounts.sql
+#       new file:   supabase/migrations/20260910230000_fix_admin_auth_with_identities.sql
+#       new file:   supabase/migrations/20260911000000_product_extra_fields.sql
+#       new file:   tailwind.config.js
+#       new file:   tsconfig.json
+#
+.git/COMMIT_EDITMSG[+] [unix] (09:51 11/09/2026)                                                                 96,2 Bot
+-- INSERT --:wq#
