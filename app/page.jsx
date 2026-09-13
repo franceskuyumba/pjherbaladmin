@@ -1,0 +1,1 @@
+export default function Home() { return (<main style={{padding: '2rem', fontFamily: 'sans-serif'}}><h1>PJHerbal Admin Portal</h1><p>Welcome to the admin dashboard. Go to <a href='/add-product'>/add-product</a> to add new products.</p></main>); }
