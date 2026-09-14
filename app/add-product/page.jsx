@@ -13,7 +13,7 @@ export default function AddProduct() {
     if (!imageFile) return alert('Please select a photo!');
     setLoading(true);
 
-    const fileName = ${Date.now()}-;
+    const fileName = `${Date.now()}-${imageFile.name}`;
     const { error: uploadError } = await supabase.storage.from('products').upload(fileName, imageFile);
 
     if (uploadError) {
