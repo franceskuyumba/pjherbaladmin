@@ -45,6 +45,7 @@ export default function AdminLoginForm() {
 
   return (
     <div className="slide-up">
+      {/* Mobile Logo */}
       <div className="flex items-center gap-3 mb-8 lg:hidden">
         <AppLogo size={36} />
         <div>
@@ -53,6 +54,7 @@ export default function AdminLoginForm() {
         </div>
       </div>
 
+      {/* Heading */}
       <div className="mb-7">
         <h1 className="text-2xl font-bold text-foreground">Sign in to Admin</h1>
         <p className="text-sm text-muted-foreground mt-1">
@@ -60,6 +62,7 @@ export default function AdminLoginForm() {
         </p>
       </div>
 
+      {/* Login Error */}
       {loginError && (
         <div className="flex items-start gap-2.5 p-3.5 mb-5 bg-red-50 border border-red-200 rounded-lg fade-in">
           <AlertCircle size={16} className="text-red-600 flex-shrink-0 mt-0.5" />
@@ -68,6 +71,7 @@ export default function AdminLoginForm() {
       )}
 
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4" noValidate>
+        {/* Email */}
         <div>
           <label htmlFor="login-email" className="block text-sm font-semibold text-foreground mb-1.5">
             Email Address
@@ -94,6 +98,7 @@ export default function AdminLoginForm() {
           )}
         </div>
 
+        {/* Password */}
         <div>
           <div className="flex items-center justify-between mb-1.5">
             <label htmlFor="login-password" className="block text-sm font-semibold text-foreground">
@@ -134,6 +139,7 @@ export default function AdminLoginForm() {
           )}
         </div>
 
+        {/* Remember Me */}
         <div className="flex items-center gap-2.5">
           <input
             id="remember-me"
@@ -146,6 +152,7 @@ export default function AdminLoginForm() {
           </label>
         </div>
 
+        {/* Submit */}
         <button
           type="submit"
           disabled={isLoading}
